@@ -1,0 +1,43 @@
+/* assets/style.css */
+body {
+  background-color: #111111;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  padding-right: 50px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 50px;
+}
+
+header {
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 100px;
+}
+
+.grid-container {
+  display: grid;
+  gap: 50px;
+  grid-template-columns: repeat(4, 1fr);
+  padding-left: 50px;
+}
+
+.graph-container{
+    grid-column: span 3;
+}
+
+#country {
+    width: 500px;
+    color: #111111;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+#country_graph {
+    width: 1000px;
+    margin: 0 auto;
+
+}
